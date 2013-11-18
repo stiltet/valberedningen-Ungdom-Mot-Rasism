@@ -1,0 +1,42 @@
+@charset "windows-1252";
+
+body  {
+  color:#ffffff;
+  background:#000000;
+  font: 12pt OpenDyslexic;
+  margin: 0;
+  padding:0px;
+  overflow:hidden;
+}
+
+h1  {
+  font: bold 20pt OpenDyslexic;
+}
+
+a {
+  color:#ffffff;
+  text-decoration:none;
+}
+
+a:hover {
+  color:#aaaaaa;
+  text-decoration:underline;  
+}
+
+div#errorPage {
+  height:90%;
+  text-align:center;
+  margin:0;
+  padding: 2%;
+}
+
+div#errorPage div#umr_vb_logo_container {
+}
+
+div#errorPage div#umr_vb_logo_container img#umr_vb_logo {
+  height:100%;
+}
+
+.displayNone  {
+  display: none;
+}
